@@ -5,7 +5,7 @@ import { DesignContext } from "../Context/DesignContext";
 import { ConfigureContext } from "../Context/ConfigureContext";
 import { convertToRgbaCSS, designBackground } from "../../HelperComponents/HelperFunctions";
 const { applyFilters } = wp.hooks;
-
+const { __ } = wp.i18n;
 function validateEmail(email) {
 	const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 	return re.test(String(email).toLowerCase());
@@ -247,7 +247,7 @@ export default function DesignPreview() {
                                         color: convertToRgbaCSS(
                                             designCon.buttonTextColor
                                         ),
-                                    }} onClick={() => {changeCurrentTab(1);}}>Next</button>
+                                    }} onClick={() => {changeCurrentTab(1);}}>{__('Next', 'surveyfunnel')}</button>
 								</div>}
                             </div>
                         </div>
@@ -309,7 +309,7 @@ export default function DesignPreview() {
                                         color: convertToRgbaCSS(
                                             designCon.buttonTextColor
                                         ),
-                                    }} onClick={() => {changeCurrentTab(1);}}>Next</button>	
+                                    }} onClick={() => {changeCurrentTab(1);}}>{__('Next', 'surveyfunnel')}</button>	
 								</div>}
                             </div>
                         </div>

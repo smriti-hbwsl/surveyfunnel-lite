@@ -1,0 +1,271 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SurveyFunnel Lite\n"
+"POT-Creation-Date: 2022-06-29 10:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: surveyfunnel-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"\n"
+"Language: "
+
+#: admin/views/admin-display-dashboard-page.php:152
+msgctxt "Tous les types"
+msgid "All Types"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:99
+msgctxt ""
+"Attribuez une valeur de score à chaque réponse. Les répondants reçoivent des "
+"résultats en fonction de leur plage de scores."
+msgid ""
+"Assign a score value to each answer. Respondents receive results based on "
+"their score range."
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:153
+msgctxt "Enquête de base"
+msgid "Basic Survey"
+msgstr ""
+
+#. Description of the plugin
+msgctxt ""
+"Boostez vos prospects en utilisant des techniques de quiz / sondage . Faites "
+"glisser et déposez le générateur de formulaires pour lancer des quiz en "
+"quelques minutes."
+msgid ""
+"Boost your leads using quiz / survey lead techniques . Drag & drop form "
+"builder to launch quizzes within minutes."
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:203
+msgctxt "Construire"
+msgid "Build"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:262
+msgctxt "Compl. Évaluer"
+msgid "Compl. Rate"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:215
+msgctxt "Configurer"
+msgid "Configure"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:256
+msgctxt "Contacts"
+msgid "Contacts"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:78
+msgctxt ""
+"Create a linear survey. Respondents receive results when they complete the "
+"survey."
+msgid ""
+"Create a linear survey. Respondents receive results when they complete the "
+"survey."
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:165
+msgctxt "Créer un nouveau sondage"
+msgid "Create New Survey"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:146
+msgctxt "TABLEAU DE BORD"
+msgid "DASHBOARD"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:143
+#: admin/class-surveyfunnel-lite-admin.php:144
+msgctxt "Tableau de bord"
+msgid "Dashboard"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:233
+msgctxt "Effacer"
+msgid "Delete"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:221
+msgctxt "Déployer"
+msgid "Deploy"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:209
+msgctxt "Concevoir"
+msgid "Design"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:848
+msgctxt "Documentation"
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:125
+msgctxt "Entrez le nom de l'enquête"
+msgid "Enter Survey Name"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:850
+msgctxt "FAQ"
+msgid "FAQ"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:149
+msgctxt "Filtrer par:"
+msgid "Filter By:"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:164
+#: admin/class-surveyfunnel-lite-admin.php:165
+msgctxt "Aider"
+msgid "Help"
+msgstr ""
+
+#. Author URI of the plugin
+msgctxt "https://club.wpeka.com"
+msgid "https://club.wpeka.com"
+msgstr ""
+
+#. URI of the plugin
+msgctxt "https://club.wpeka.com/"
+msgid "https://club.wpeka.com/"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:128
+msgctxt "Veuillez nommer l'enquête afin de continuer"
+msgid "Kindly name the survey in order to proceed"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:120
+msgctxt ""
+"Cartographier les réponses aux résultats. Les répondants reçoivent des "
+"résultats basés sur le résultat avec le plus de réponses sélectionnées."
+msgid ""
+"Map answers to outcomes. Respondents receive results based on the outcome "
+"with the most answers selected."
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:117
+#: admin/views/admin-display-dashboard-page.php:155
+msgctxt "Logique de résultat"
+msgid "Outcome Logic"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:177
+msgctxt "Veuillez activer la version Pro pour accéder à cette enquête"
+msgid "Please activate the Pro Version to access this survey"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:196
+msgctxt "Publié"
+msgid "Published"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:227
+msgctxt "Reports"
+msgid "Reports"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:96
+#: admin/views/admin-display-dashboard-page.php:154
+msgctxt "Logique de notation"
+msgid "Scoring Logic"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:159
+msgctxt "Rechercher par nom de contenu"
+msgid "Search By Content Name"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:856
+#: tests/test-class-surveyfunnel-lite-admin.php:261
+msgctxt "Voir les liens rapides"
+msgid "See Quick Links"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:58
+msgctxt "Sélectionnez le type d'enquête"
+msgid "Select Survey Type"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:75
+msgctxt "Sondage simple"
+msgid "Simple Survey"
+msgstr ""
+
+#. 1: href link
+#: admin/views/admin-display-dashboard-page.php:25
+msgctxt ""
+"Certaines des questions de la fonctionnalité PRO ne seront pas disponibles "
+"car la version pro est désactivée."
+msgid ""
+"Some of the PRO feature questions won't be available to use as pro version "
+"is deactivated."
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:846
+msgctxt "Soutien"
+msgid "Support"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:132
+#: admin/class-surveyfunnel-lite-admin.php:133
+#: admin/class-surveyfunnel-lite-admin.php:1094
+msgctxt "SurveyFunnel"
+msgid "SurveyFunnel"
+msgstr ""
+
+#. Name of the plugin
+msgctxt "SurveyFunnel Lite"
+msgid "SurveyFunnel Lite"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:239
+msgctxt "surveyfunnel-lite"
+msgid "surveyfunnel-lite"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:240
+msgctxt ""
+"surveyfunnel-lite type de publication personnalisé pour générer des sondages"
+msgid "surveyfunnel-lite custom post type to generate surveys"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:194
+msgctxt "Inédit"
+msgid "Unpublished"
+msgstr ""
+
+#: admin/class-surveyfunnel-lite-admin.php:852
+msgctxt "Passer à Pro >>"
+msgid "Upgrade to Pro >>"
+msgstr ""
+
+#: admin/views/admin-display-dashboard-page.php:250
+msgctxt "Vues"
+msgid "Views"
+msgstr ""
+
+#. Author of the plugin
+msgctxt "WPEka Club"
+msgid "WPEka Club"
+msgstr ""

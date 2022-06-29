@@ -286,8 +286,8 @@ class Surveyfunnel_Lite_Admin {
 			}
 
 			update_option( 'srf-lite-background-update', true );
-		}else{
-			update_option( 'srf-lite-background-update', false);
+		} else {
+			update_option( 'srf-lite-background-update', false );
 		}
 	}
 
@@ -357,7 +357,7 @@ class Surveyfunnel_Lite_Admin {
 		$post_id = isset( $_POST['id'] ) ? intval( $_POST['id'] ) : 0;
 
 		// delete post and send success json.
-		$delete  = wp_delete_post( $post_id );
+		$delete = wp_delete_post( $post_id );
 		if ( ! $delete ) {
 			wp_send_json_error();
 			wp_die();
@@ -436,6 +436,7 @@ class Surveyfunnel_Lite_Admin {
 				<input type="hidden" id="exportCSVAction" value="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>?action=export_csv">
 				<?php do_action( 'surveyfunnel_lite_survey_page_html' ); ?>
 				<?php wp_print_scripts( $this->plugin_name . '-main' ); ?>
+				<?php wp_set_script_translations( $this->plugin_name . '-main', 'surveyfunnel', dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/' ); ?>
 			</body>
 			</html>
 		<?php
@@ -515,12 +516,12 @@ class Surveyfunnel_Lite_Admin {
 			wp_die();
 		}
 
-		$post_id       = isset( $_POST['post_id'] ) ? intval( $_POST['post_id'] ) : 0;
-		$post_title    = isset( $_POST['post_title'] ) ? sanitize_text_field( wp_unslash( $_POST['post_title'] ) ) : '';
-		$defaults      = $this->surveyfunnel_lite_get_default_save_array();
-		$has_pro       = isset( $_POST['hasProQuestions'] ) ? sanitize_text_field( wp_unslash( $_POST['hasProQuestions'] ) ) : 0;
-		$post_meta     = get_post_meta( $post_id, 'surveyfunnel-lite-data', true );
-		$data          = wp_parse_args( (array) $post_meta, $defaults );
+		$post_id    = isset( $_POST['post_id'] ) ? intval( $_POST['post_id'] ) : 0;
+		$post_title = isset( $_POST['post_title'] ) ? sanitize_text_field( wp_unslash( $_POST['post_title'] ) ) : '';
+		$defaults   = $this->surveyfunnel_lite_get_default_save_array();
+		$has_pro    = isset( $_POST['hasProQuestions'] ) ? sanitize_text_field( wp_unslash( $_POST['hasProQuestions'] ) ) : 0;
+		$post_meta  = get_post_meta( $post_id, 'surveyfunnel-lite-data', true );
+		$data       = wp_parse_args( (array) $post_meta, $defaults );
 
 		// need to replace \\ with \\\\ since json_encode removes all the slashes recursively.
 		$data['build'] = str_replace( '\\', '\\\\', json_encode( $data['build'], true ) );
@@ -578,7 +579,7 @@ class Surveyfunnel_Lite_Admin {
 		$post_meta = get_post_meta( $post_id, 'surveyfunnel-lite-data', true );
 		$data      = array(
 			'configure' => $post_meta['configure'],
-            'proActive' => apply_filters( 'surveyfunnel_pro_activated', false ),
+			'proActive' => apply_filters( 'surveyfunnel_pro_activated', false ),
 		);
 		wp_send_json_success( $data );
 		wp_die();
@@ -705,7 +706,7 @@ class Surveyfunnel_Lite_Admin {
 		$end_date   = isset( $_POST['endDate'] ) ? sanitize_text_field( wp_unslash( $_POST['endDate'] ) ) : '';
 
 		// get all rows between specified start date and end date.
-		$rows       = $wpdb->get_results(
+		$rows = $wpdb->get_results(
 			$wpdb->prepare(
 				'
 					SELECT * 
@@ -1019,24 +1020,24 @@ class Surveyfunnel_Lite_Admin {
 		}
 	}
 
-    /**
-     * Ajax: get API key.
-     */
-    public function surveyfunnel_lite_get_api_key() {
+	/**
+	 * Ajax: get API key.
+	 */
+	public function surveyfunnel_lite_get_api_key() {
 
-        // check for security.
-        if ( isset( $_POST['action'] ) ) {
-            check_admin_referer( 'surveyfunnel-lite-security', 'security' );
-        } else {
-            wp_send_json_error();
-            wp_die();
-        }
+		// check for security.
+		if ( isset( $_POST['action'] ) ) {
+			check_admin_referer( 'surveyfunnel-lite-security', 'security' );
+		} else {
+			wp_send_json_error();
+			wp_die();
+		}
 
-        $apiData = get_option('wc_am_client_surveyfunnel_pro');
-        $data = array( 'apikey' => $apiData['wc_am_client_surveyfunnel_pro_api_key']);
-        wp_send_json_success( $data );
-        wp_die();
-    }
+		$apiData = get_option( 'wc_am_client_surveyfunnel_pro' );
+		$data    = array( 'apikey' => $apiData['wc_am_client_surveyfunnel_pro_api_key'] );
+		wp_send_json_success( $data );
+		wp_die();
+	}
 
 	/**
 	 * Display surveys added by gutenberg block.

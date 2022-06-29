@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: SurveyFunnel Lite\n"
+"POT-Creation-Date: 2022-06-29 11:49+0530\n"
+"PO-Revision-Date: 2022-06-29 10:10+0000\n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: surveyfunnel-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr-FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Loco-Template-Mode: pot,json\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.2; wp-6.0"
+
+#: admin/class-surveyfunnel-lite-admin.php:132 
+#: admin/class-surveyfunnel-lite-admin.php:133 
+#: admin/class-surveyfunnel-lite-admin.php:1093
+msgid "SurveyFunnel"
+msgstr "SurveyFunnel"
+
+#: admin/class-surveyfunnel-lite-admin.php:143 
+#: admin/class-surveyfunnel-lite-admin.php:144
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: admin/class-surveyfunnel-lite-admin.php:164 
+#: admin/class-surveyfunnel-lite-admin.php:165
+msgid "Help"
+msgstr "Aider"
+
+#: admin/class-surveyfunnel-lite-admin.php:239
+msgid "surveyfunnel-lite"
+msgstr "surveyfunnel-lite"
+
+#: admin/class-surveyfunnel-lite-admin.php:240
+msgid "surveyfunnel-lite custom post type to generate surveys"
+msgstr ""
+"type de publication personnalisée surveyfunnel-lite pour générer des enquêtes"
+
+#: admin/class-surveyfunnel-lite-admin.php:845
+msgid "Support"
+msgstr "Support"
+
+#: admin/class-surveyfunnel-lite-admin.php:847
+msgid "Documentation"
+msgstr "Documentation"
+
+#: admin/class-surveyfunnel-lite-admin.php:849
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-surveyfunnel-lite-admin.php:851
+msgid "Upgrade to Pro &raquo;"
+msgstr "Passer à la version Pro &raquo;"
+
+#: admin/class-surveyfunnel-lite-admin.php:855 
+#: tests/test-class-surveyfunnel-lite-admin.php:261
+msgid "See Quick Links"
+msgstr "Voir les liens rapides"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:9858 
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10016 
+#: src/gutenberg-blocks/single-survey/single-survey.js:12 
+#: src/gutenberg-blocks/single-survey/single-survey.js:178
+msgid "SurveyFunnel Single Survey"
+msgstr "SurveyFunnel Enquête unique"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:9859 
+#: src/gutenberg-blocks/single-survey/single-survey.js:13
+msgid "Block to generate single survey"
+msgstr "Bloquer pour générer une seule enquête"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:9998 
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10041 
+#: src/gutenberg-blocks/single-survey/single-survey.js:166 
+#: src/gutenberg-blocks/single-survey/single-survey.js:195
+msgid "Responsive"
+msgstr "Responsive"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:9999 
+#: src/gutenberg-blocks/single-survey/single-survey.js:167
+msgid "Fullpage"
+msgstr "Page complète"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10000 
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10063 
+#: src/gutenberg-blocks/single-survey/single-survey.js:168 
+#: src/gutenberg-blocks/single-survey/single-survey.js:203
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10022 
+#: src/gutenberg-blocks/single-survey/single-survey.js:181
+msgid "Select Survey"
+msgstr "Sélectionner"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10035 
+#: src/gutenberg-blocks/single-survey/single-survey.js:192
+msgid "Survey Embed Type"
+msgstr "Type"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10052 
+#: src/gutenberg-blocks/single-survey/single-survey.js:199
+msgid "Full Page"
+msgstr "Pleine page"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10078 
+#: src/gutenberg-blocks/single-survey/single-survey.js:211
+msgid "Width"
+msgstr "Largeur"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10093 
+#: src/gutenberg-blocks/single-survey/single-survey.js:218
+msgid "Height"
+msgstr "Hauteur"
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10112 
+#: src/gutenberg-blocks/single-survey/single-survey.js:230
+msgid ""
+" survey has been added. Click on this box to edit. Preview for survey will "
+"be available on live or preview page."
+msgstr ""
+" sondage a été ajouté. Cliquez sur cette case pour modifier. L'aperçu de "
+"l'enquête sera disponible sur la page en direct ou sur la page d'aperçu. "
+
+#: admin/js/gutenberg-blocks/surveyfunnel-lite-gutenberg-singlesurvey.js:10118 
+#: src/gutenberg-blocks/single-survey/single-survey.js:232
+msgid "No survey selected. Click on this box to edit."
+msgstr "Aucune enquête sélectionnée. Cliquez sur cette case pour la modifier."
+
+#. translators: 1: href link
+#: admin/views/admin-display-dashboard-page.php:25
+msgid ""
+"Some of the PRO feature questions won't be available to use as pro version "
+"is deactivated."
+msgstr ""
+"Certaines des questions de la fonctionnalité PRO ne seront pas disponibles "
+"car la version pro est désactivée."
+
+#: admin/views/admin-display-dashboard-page.php:58
+msgid "Select Survey Type"
+msgstr "Sélectionner le type d’enquête"
+
+#: admin/views/admin-display-dashboard-page.php:75
+msgid "Simple Survey"
+msgstr "Enquête simple"
+
+#: admin/views/admin-display-dashboard-page.php:78
+msgid ""
+"Create a linear survey. Respondents receive results when they complete the "
+"survey."
+msgstr ""
+"Créez une enquête linéaire. Les répondants reçoivent les résultats "
+"lorsqu’ils remplissent le sondage."
+
+#: admin/views/admin-display-dashboard-page.php:96 
+#: admin/views/admin-display-dashboard-page.php:154
+msgid "Scoring Logic"
+msgstr "Logique de notation"
+
+#: admin/views/admin-display-dashboard-page.php:99
+msgid ""
+"Assign a score value to each answer. Respondents receive results based on "
+"their score range."
+msgstr ""
+"Attribuez une valeur de score à chaque réponse. Les répondants reçoivent des "
+"résultats en fonction de leur fourchette de scores."
+
+#: admin/views/admin-display-dashboard-page.php:117 
+#: admin/views/admin-display-dashboard-page.php:155
+msgid "Outcome Logic"
+msgstr "Logique des résultats"
+
+#: admin/views/admin-display-dashboard-page.php:120
+msgid ""
+"Map answers to outcomes. Respondents receive results based on the outcome "
+"with the most answers selected."
+msgstr ""
+"Cartographier les réponses aux résultats. Les répondants reçoivent des "
+"résultats basés sur le résultat avec le plus de réponses sélectionnées."
+
+#: admin/views/admin-display-dashboard-page.php:125
+msgid "Enter Survey Name"
+msgstr "Entrez le nom de l’enquête"
+
+#: admin/views/admin-display-dashboard-page.php:128
+msgid "Kindly name the survey in order to proceed"
+msgstr "Veuillez nommer l’enquête afin de procéder"
+
+#: admin/views/admin-display-dashboard-page.php:146
+msgid "DASHBOARD"
+msgstr "TABLEAU DE BORD"
+
+#: admin/views/admin-display-dashboard-page.php:149
+msgid "Filter By:"
+msgstr "Filtrer Par:"
+
+#: admin/views/admin-display-dashboard-page.php:152
+msgid "All Types"
+msgstr "Tous les types"
+
+#: admin/views/admin-display-dashboard-page.php:153
+msgid "Basic Survey"
+msgstr "Enquête de base"
+
+#: admin/views/admin-display-dashboard-page.php:159
+msgid "Search By Content Name"
+msgstr "Recherche par nom de contenu"
+
+#: admin/views/admin-display-dashboard-page.php:165
+msgid "Create New Survey"
+msgstr "Créer une nouvelle enquête"
+
+#: admin/views/admin-display-dashboard-page.php:177
+msgid "Please activate the Pro Version to access this survey"
+msgstr "Veuillez activer la version Pro pour accéder à cette enquête"
+
+#: admin/views/admin-display-dashboard-page.php:194
+msgid "Unpublished"
+msgstr "Non publié"
+
+#: admin/views/admin-display-dashboard-page.php:196
+msgid "Published"
+msgstr "Publié"
+
+#: admin/views/admin-display-dashboard-page.php:203
+msgid "Build"
+msgstr "Construire"
+
+#: admin/views/admin-display-dashboard-page.php:209
+msgid "Design"
+msgstr "Design"
+
+#: admin/views/admin-display-dashboard-page.php:215
+msgid "Configure"
+msgstr "Configurer"
+
+#: admin/views/admin-display-dashboard-page.php:221
+msgid "Deploy"
+msgstr "Déployer"
+
+#: admin/views/admin-display-dashboard-page.php:227
+msgid "Reports"
+msgstr "Rapports"
+
+#: admin/views/admin-display-dashboard-page.php:233
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/views/admin-display-dashboard-page.php:250
+msgid "Views"
+msgstr "Vues"
+
+#: admin/views/admin-display-dashboard-page.php:256
+msgid "Contacts"
+msgstr "Contacts"
+
+#: admin/views/admin-display-dashboard-page.php:262
+msgid "Compl. Rate"
+msgstr "Taux compl."
+
+#: dist/src_Components_Design_index_js.bundle.js:330
+msgid "Next"
+msgstr "Suivante"
+
+#. Plugin Name of the plugin/theme
+msgid "SurveyFunnel Lite"
+msgstr "SurveyFunnel Lite"
+
+#. Plugin URI of the plugin/theme
+msgid "https://club.wpeka.com/"
+msgstr "https://club.wpeka.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Boost your leads using quiz / survey lead techniques . Drag & drop form "
+"builder to launch quizzes within minutes."
+msgstr ""
+"Boostez vos leads en utilisant des techniques de quiz / survey lead. Faites "
+"glisser et déposez le générateur de formulaires pour lancer des quiz en "
+"quelques minutes."
+
+#. Author of the plugin/theme
+msgid "WPEka Club"
+msgstr "WPEka Club"
+
+#. Author URI of the plugin/theme
+msgid "https://club.wpeka.com"
+msgstr "https://club.wpeka.com"
